@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html>
+<header>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</header>
+
 <body>
 <h1 id='title'>JAMES BELL</h1>
 
@@ -8,73 +12,81 @@
 
 <p>I have been programming in many languages for since I was 13</p>
 
+<div id='mi'>
+  <h2>Personal Marketing Images Automatically!</h2>
 
-<h2>Personal Marketing Images Automatically!</h2>
-<img src="images/promo-15-mmbarber.de.png" width="300" height="300"/>
-<img src="images/promo-16-daviethebarber.co.uk-2.png" width="300" height="300"/>
-<img src="images/promo-17-burdettsbarbers.com.png" width="300" height="300"/>
-<p>Marketing images was a cross discipline project to realise the designers designs. We wanted to make a tool for users to be able to market their website (provided by Nearcut) and their own brand. To achieve this I created a Sidekiq task that would screenshot their site using a 3rd party api, then take that screenshot and composite an image using empty templates the designer provided. Composition was created using a ruby implementation of ImageMagick.
-</p>
-<h3>Technology Used</h3>
-<table>
-  <tr>
-    <th>Development</th>
-    <th>Testing</th>
-    <th>Deployment</th>
-  </tr>
-  <tr>
-    <td>Ruby on Rails</td>
-    <td>Rspec</td>
-    <td>Sidekiq</td>
-  </tr>
-  <tr>
-    <td>Ruby</td>
-    <td>Docker</td>
-    <td>CircleCi</td>
-  </tr>
-  <tr>
-    <td>ImageMagick</td>
-    <td></td>
-    <td>Kubernetes</td>
-  </tr>
-</table>
+  <img src="images/promo-15-mmbarber.de.png" width="300" height="300"/>
+  <img src="images/promo-16-daviethebarber.co.uk-2.png" width="300" height="300"/>
+  <img src="images/promo-17-burdettsbarbers.com.png" width="300" height="300"/>
 
-<h2>3D Graphics Engine!</h2>
-<iframe width="420" height="315"
-src="https://www.youtube.com/embed/2WMoGDwuUBM">
-</iframe>
-<p>For my 3D computer graphics module I was tasked to implement a graphics engine using the principles taught. This involved setting up the graphics pipeline for OpenGL, writing Fragment Shaders and Vertex Shaders. I used JOGL (Java OpenGL) as through my degree I was taught Java to a high standard and it was more important to demonstrate ability to understand the principles of 3D computer graphics, than the complex behavior of C++ which is the industry standard.
-</p>
-<h3>Technology Used</h3>
-<ul>
-  <li>Java</li>
-  <li>OpenGL</li>
-  <li>GLSL</li>
-  <li>JOGL</li>
-</ul>
+  <p>Marketing images was a cross discipline project to realise the designers designs. We wanted to make a tool for users to be able to market their website (provided by Nearcut) and their own brand. To achieve this I created a Sidekiq task that would screenshot their site using a 3rd party api, then take that screenshot and composite an image using empty templates the designer provided. Composition was created using a ruby implementation of ImageMagick.
+  </p>
 
+  <h3>Technology Used</h3>
 
-<h2>The Most Entertaining Game!</h2>
-<h3>As voted by the sheffjam 9 committee</h3>
-<img src="images/splashscreen.png" width="600" height="300"/>
-<br>
-<img src="images/gameplay.png" width="600" height="300"/>
-<br>
-<a href="https://hallegj18.github.io/shefjam9/">Play it here!</a>
-<p>This was our second game jam at Sheffield, organised and run by the CompSoc. The theme for the jam was “Villains” and so we chose to base the game on the most villainous act to steal forty pies, that is as many as four tens! And that’s terrible!
-</p>
-<p>
-We (Ilya, Jon, Halle, and myself) used a kanban board to organise tasks and implemented an accelerated Agile approach to development. I was responsible for Sound engineering, Display text, Point system, and technical implementation of graphics.
-</p>
-<p>
-In 48 hours we produced the most entertaining game of that year's game jam.
-</p>
-<h3>Technology Used</h3>
-<ul>
-  <li>JavaScript</li>
-  <li>HTML</li>
-  <li>CSS</li>
-</ul>
+  <table>
+    <tr>
+      <th>Development</th>
+      <th>Testing</th>
+      <th>Deployment</th>
+    </tr>
+    <tr>
+      <td>Ruby on Rails</td>
+      <td>Rspec</td>
+      <td>Sidekiq</td>
+    </tr>
+    <tr>
+      <td>Ruby</td>
+      <td>Docker</td>
+      <td>CircleCi</td>
+    </tr>
+    <tr>
+      <td>ImageMagick</td>
+      <td></td>
+      <td>Kubernetes</td>
+    </tr>
+  </table>
+</div>
+
+<div id='jo'>
+  <h2>3D Graphics Engine!</h2>
+  <iframe width="420" height="315"
+  src="https://www.youtube.com/embed/2WMoGDwuUBM">
+  </iframe>
+  <p>For my 3D computer graphics module I was tasked to implement a graphics engine using the principles taught. This involved setting up the graphics pipeline for OpenGL, writing Fragment Shaders and Vertex Shaders. I used JOGL (Java OpenGL) as through my degree I was taught Java to a high standard and it was more important to demonstrate ability to understand the principles of 3D computer graphics, than the complex behavior of C++ which is the industry standard.
+  </p>
+  <h3>Technology Used</h3>
+  <ul>
+    <li>Java</li>
+    <li>OpenGL</li>
+    <li>GLSL</li>
+    <li>JOGL</li>
+  </ul>
+</div>
+
+<div id='sj'>
+  <h2>The Most Entertaining Game!</h2>
+  <h3>As voted by the sheffjam 9 committee</h3>
+  <img src="images/splashscreen.png" width="600" height="300"/>
+  <br>
+  <img src="images/gameplay.png" width="600" height="300"/>
+  <br>
+  <a href="https://hallegj18.github.io/shefjam9/">Play it here!</a>
+  <p>This was our second game jam at Sheffield, organised and run by the CompSoc. The theme for the jam was “Villains” and so we chose to base the game on the most villainous act to steal forty pies, that is as many as four tens! And that’s terrible!
+  </p>
+  <p>
+  We (Ilya, Jon, Halle, and myself) used a kanban board to organise tasks and implemented an accelerated Agile approach to development. I was responsible for Sound engineering, Display text, Point system, and technical implementation of graphics.
+  </p>
+  <p>
+  In 48 hours we produced the most entertaining game of that year's game jam.
+  </p>
+  <h3>Technology Used</h3>
+  <ul>
+    <li>JavaScript</li>
+    <li>HTML</li>
+    <li>CSS</li>
+  </ul>
+</div>
 
 </body>
 </html>
